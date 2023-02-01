@@ -1,7 +1,7 @@
 
 const background = document.getElementById('htmlBody')
-
 const hexValue = document.getElementById("hexValue")
+
 
 function random(){
     let hex ="#"
@@ -12,5 +12,4 @@ function random(){
 
     background.style.backgroundColor = hex
     hexValue.innerText = hex
-
   }
